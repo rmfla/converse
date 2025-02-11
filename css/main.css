@@ -1,6 +1,17 @@
+@font-face {
+  font-family: "SUIT";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root,
 html {
   font-size: 10px;
+}
+main {
+  font-family: "SUIT";
 }
 :root {
   --swiper-theme-color: #000 !important;
