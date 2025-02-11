@@ -1,0 +1,362 @@
+:root,
+html {
+  font-size: 10px;
+}
+:root {
+  --swiper-theme-color: #000 !important;
+}
+.content-box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 110px;
+}
+.visual-sec .swiper-wrapper img {
+  width: 100%;
+  /* height: 110%; */
+  object-fit: cover;
+}
+.sec01 .inner-box {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  margin-top: 45px;
+  /* gap: 20px; */
+}
+
+.sec01-box-content {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sec01-box-content .swiper-wrapper > div {
+  /* flex: 1; */
+  background: #fbfbfb;
+  cursor: pointer;
+  height: max-content;
+  /* min-width: 360px; */
+}
+
+.sec01-box-content .swiper-wrapper > div .bottom {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sec01-box-content .swiper-wrapper > div .bottom > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  height: 17rem;
+}
+
+.sec01-box-content .swiper-wrapper > div .bottom div img {
+  width: 136px;
+}
+.sec01 .txt {
+  white-space: nowrap;
+  width: calc(100% - 156px);
+}
+.sec01 .txt > h2 {
+  font-size: 1.7rem;
+  white-space: break-spaces;
+}
+.sec01 .txt > p {
+  font-size: 1.2rem;
+}
+.sec01 .txt > span {
+  font-size: 1.5rem;
+}
+.sec01 .inner-box .tit {
+  padding: 2rem 0;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+}
+.sec02 .inner01 {
+  margin-top: 150px;
+}
+.sec02 .inner01 .tit {
+  font-weight: 700;
+}
+.sec02 .tit {
+  font-size: 3rem;
+  padding: 3rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.swiper-button-container {
+  display: flex;
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  align-items: center;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+.sec02 .txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 16px;
+  line-height: 42px;
+}
+.sec02 .txt > h2 {
+  font-size: 2.8rem;
+}
+.sec02 .txt > p {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.sec02 .txt > a > span {
+  color: #f891b8;
+}
+.sec02 .promo-arrow-btn {
+  width: 160px;
+  height: 40px;
+  background-color: #232323;
+  /* border-radius: 10px; */
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sec03 {
+  margin-top: 45px;
+}
+.sec03 .inner03 {
+  margin-top: 120px;
+}
+.sec01,
+.sec03,
+.sec04 {
+  max-width: 1648px;
+  margin: 0 auto;
+}
+.sec03 .style-box {
+  display: flex;
+  gap: 2rem;
+  /* padding: 2rem; */
+}
+.sec03 .tit {
+  display: flex;
+  font-size: 3rem;
+  padding: 3rem 0;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.sec03 .box {
+  background-color: #e7e8e8;
+}
+.sec03 .bottom {
+  display: flex;
+  width: 100%;
+  height: 86px;
+  justify-content: center;
+  background-color: #232323;
+}
+.sec03 .bottom .txt {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #f891b8;
+}
+.sec04 {
+  margin-top: 110px;
+}
+.sec04 .tit::before {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 4rem;
+  margin-top: 0.4rem;
+  background: url(../img/black-instagram-icon.jpeg) no-repeat left / 100%;
+  margin-right: 1rem;
+}
+.sec04 .tit {
+  display: flex;
+  padding: 3rem 0;
+  font-size: 3rem;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.sec04 .insta_list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.sec04 .insta_list .img09 > a {
+  display: none;
+}
+
+@media (max-width: 1251px) {
+  .sec01 .inner-box .tit {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+  .sec01 .inner-box .tit {
+    font-size: 2rem;
+    white-space: nowrap;
+  }
+  .sec02 .tit {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+  .sec02 .txt > h2 {
+    font-size: 1.6rem;
+  }
+  .sec02 .txt > p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    white-space: nowrap;
+  }
+  .sec02 .txt > a > span {
+    font-size: 1.3rem;
+  }
+  .sec02 .promo-arrow-btn {
+    width: 110px;
+  }
+  .sec03 .tit {
+    font-size: 2rem;
+    padding: 0 2rem;
+  }
+  .style-box {
+    flex-wrap: wrap;
+    column-gap: 0;
+    padding: 2rem;
+  }
+  .style-box > div {
+    width: calc((100% - 20px) / 2);
+  }
+  .sec03 .bottom {
+    height: 66px;
+  }
+  .sec03 .bottom .txt {
+    font-size: 2rem;
+  }
+  .sec04 .tit {
+    font-size: 2rem;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .sec04 .insta_list {
+    padding: 2rem;
+    grid-template-columns: repeat(3, 3fr);
+  }
+  .sec04 .insta_list .img09 > a {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .sec01-box-content .swiper-wrapper {
+    gap: 0px;
+  }
+  .sec01-box-content .swiper-wrapper > div {
+    min-width: 100%;
+  }
+  
+  .visual-sec .swiper-wrapper img {
+    height: 60rem;
+  }
+  .content-box {
+    margin-bottom: 50px;
+  }
+  .sec02 .inner01 {
+    margin-top: 50px;
+  }
+  .sec02 .txt {
+    line-height: 25px;
+  }
+  .sec03 .inner03 {
+    margin-top: 50px;
+  }
+  .sec03 .style-box {
+    padding: 2rem;
+  }
+  .sec03 .bottom {
+    height: 56px;
+  }
+  .sec03 .bottom .txt {
+    font-size: 2rem;
+  }
+  .sec04 {
+    margin-top: 50px;
+  }
+}
+@media (max-width:375px) {
+  .sec01 .txt > h2 {
+    font-size: 1.4rem;
+  }
+  .sec01 .txt > p {
+    font-size: 1.3rem;
+  }
+  .sec01 .txt > span {
+    font-size: 1.2rem;
+  }
+  .sec02 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .sec02 .txt > h2 {
+    white-space: nowrap;
+    font-size: 1.6rem;
+    /* line-height: 1rem; */
+  }
+  .sec02 .txt {
+    line-height: 10px;
+  }
+  .sec02 .txt > p {
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .sec02 .txt > span {
+    font-size: 1rem;
+  }
+  .style-box {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0;
+  }
+  .sec03 .bottom {
+    height: 56px;
+  }
+  .sec03 .bottom .txt {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 340px) {
+  .style-box {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0;
+  }
+  .sec03 .bottom {
+    height: 56px;
+  }
+  .sec03 .bottom .txt {
+    font-size: 2rem;
+  }
+}
+
